@@ -1,9 +1,11 @@
 # phpseclib-and-jsencrypt-rsa
 
 
-用phpseclib 和 jsencrypt 实现前端js加密，服务端php解密
+## 用phpseclib 和 jsencrypt 实现前端js加密，服务端php解密 ##
+***
 
-========================php=========================
+#### php ###
+```php
 <?php
 
 class rsa {
@@ -61,10 +63,12 @@ class rsa {
         return $rsa->decrypt($encrypted);
     }
 }
+```
 
 
 
-==========================js==============================
+### js ###
+```javascript
 var options = {
 	default_key_size : 1024,
 	default_public_exponent : '010001',
@@ -74,14 +78,12 @@ crypt.setPublicKey($('#publicKey').val());
 
 var input = '123456';
 console.log(crypt.encrypt(input));
+```
 
 
 
-=========================================================
+***
 phpseclib: https://github.com/phpseclib/phpseclib
 jsencrypt: https://github.com/travist/jsencrypt
-
-
-
 
 
