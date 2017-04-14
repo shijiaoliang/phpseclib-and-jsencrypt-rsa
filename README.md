@@ -83,7 +83,7 @@ console.log(crypt.encrypt(input));
 
 
 ***
-phpseclib: https://github.com/phpseclib/phpseclib
-jsencrypt: https://github.com/travist/jsencrypt
+- phpseclib: https://github.com/phpseclib/phpseclib
+- jsencrypt: https://github.com/travist/jsencrypt
 
 
